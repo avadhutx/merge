@@ -121,7 +121,7 @@ async def MergeSubNew(filePath: str, subPath: str, user_id, file_list):
     for j in range(1, (len(file_list))):
         maps += f"-map {j}:s "
         metadata += (
-            f"-metadata:s:s:{subTrack} title='Track {subTrack+1} - Telegram@HDCINEMA_1' "
+            f"-metadata:s:s:{subTrack} title='Track {subTrack+1} - Telegram@HDCINEMA_1]' "
         )
         subTrack += 1
     print("Sub muxing")
